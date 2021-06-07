@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9D99D3F9266DC0DE00816B98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D99D3F8266DC0DE00816B98 /* main.cpp */; };
+		9D99D402266DC57200816B98 /* ClassTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D99D401266DC57200816B98 /* ClassTemplate.cpp */; };
+		9D99D406266DD26100816B98 /* FunctionTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D99D405266DD26100816B98 /* FunctionTemplate.cpp */; };
+		9D99D40A266DD3E300816B98 /* UnionTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D99D409266DD3E300816B98 /* UnionTemplate.cpp */; };
+		9D99D40E266DD5FD00816B98 /* VariableTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D99D40D266DD5FD00816B98 /* VariableTemplate.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		9D99D3F5266DC0DE00816B98 /* CppTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D99D3F8266DC0DE00816B98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9D99D400266DC57200816B98 /* ClassTemplate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClassTemplate.hpp; sourceTree = "<group>"; };
+		9D99D401266DC57200816B98 /* ClassTemplate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassTemplate.cpp; sourceTree = "<group>"; };
+		9D99D404266DD26100816B98 /* FunctionTemplate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FunctionTemplate.hpp; sourceTree = "<group>"; };
+		9D99D405266DD26100816B98 /* FunctionTemplate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionTemplate.cpp; sourceTree = "<group>"; };
+		9D99D408266DD3E300816B98 /* UnionTemplate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UnionTemplate.hpp; sourceTree = "<group>"; };
+		9D99D409266DD3E300816B98 /* UnionTemplate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnionTemplate.cpp; sourceTree = "<group>"; };
+		9D99D40C266DD5FD00816B98 /* VariableTemplate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VariableTemplate.hpp; sourceTree = "<group>"; };
+		9D99D40D266DD5FD00816B98 /* VariableTemplate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VariableTemplate.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				9D99D3F8266DC0DE00816B98 /* main.cpp */,
+				9D99D40C266DD5FD00816B98 /* VariableTemplate.hpp */,
+				9D99D40D266DD5FD00816B98 /* VariableTemplate.cpp */,
+				9D99D408266DD3E300816B98 /* UnionTemplate.hpp */,
+				9D99D409266DD3E300816B98 /* UnionTemplate.cpp */,
+				9D99D400266DC57200816B98 /* ClassTemplate.hpp */,
+				9D99D404266DD26100816B98 /* FunctionTemplate.hpp */,
+				9D99D405266DD26100816B98 /* FunctionTemplate.cpp */,
+				9D99D401266DC57200816B98 /* ClassTemplate.cpp */,
 			);
 			path = CppTest;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D99D406266DD26100816B98 /* FunctionTemplate.cpp in Sources */,
+				9D99D40E266DD5FD00816B98 /* VariableTemplate.cpp in Sources */,
+				9D99D402266DC57200816B98 /* ClassTemplate.cpp in Sources */,
 				9D99D3F9266DC0DE00816B98 /* main.cpp in Sources */,
+				9D99D40A266DD3E300816B98 /* UnionTemplate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
