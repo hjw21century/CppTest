@@ -6,10 +6,16 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <string>
 #include "ClassTemplate.hpp"
 #include "FunctionTemplate.hpp"
 #include "UnionTemplate.hpp"
 #include "VariableTemplate.hpp"
+#include "TemplateSpecializtion.hpp"
+#include "NoTypeTemplateArg.hpp"
+#include "NestedTemplateArg.hpp"
+#include "VariadicTemplate.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -29,5 +35,23 @@ int main(int argc, const char * argv[]) {
     
     std::cout<<pi<float><<std::endl;
     std::cout<<pi<int><<std::endl;
+    
+    std::cout<<mysqrt(5.0)<<std::endl;
+    
+    Vector<int> v1;
+    v1.print();
+    Vector<bool> v2;
+    v2.print_bool();
+    
+    int arr[] = {1, 2, 3, 4};
+    std::cout<<*begin(arr)<<std::endl;
+    
+    MyType<int> myType(123);
+    print_container(myType);
+    
+//    Tuple<bool> t1(false);
+//    Tuple<int, char, std::string> t2(1, 'a', "ABC");
+    
+    print(500, 'a', "ABC");
     return 0;
 }
